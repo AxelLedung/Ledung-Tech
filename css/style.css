@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/fonts/roboto/Roboto-Medium.ttf);
+}
+html {
+  font-family: Roboto;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  height: fit-content;
+}
+.site-header {
+  background-color: #445544;
+  height: 75px;
+}
+#nav-home-button-box {
+  height: inherit;
+  width: 75px;
+  float: left;
+  border-right: solid;
+  border-color: #557755;
+  cursor: pointer;
+}
+#nav-home-button-box a {
+  height: inherit;
+  width: inherit;
+  color: unset;
+  text-decoration: none;
+}
+#nav-home-button-box:hover {
+  background-color: #557755;
+}
+#nav-home-button-box:active {
+  background-color: #334433;
+  border-color: #334433;
+}
+.nav-header-button-container {
+  height: inherit;
+  width: auto;
+  float: left;
+}
+.nav-header-button-boxes {
+  float: left;
+  height: inherit;
+  border-right: solid;
+  border-color: #557755;
+  color: white;
+  cursor: pointer;
+}
+.nav-header-button-boxes a {
+  height: inherit;
+  width: inherit;
+  color: unset;
+  text-decoration: none;
+}
+.nav-header-button-boxes:hover {
+  background-color: #557755;
+}
+.nav-header-button-boxes:active {
+  background-color: #334433;
+
+}
+.nav-header-button-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
+}
+#site-logo-container {
+  float: right;
+  height: 75px;
+}
+#site-logo-container p {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+#main {
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -150px; /* the bottom margin is the negative value of the footer's total height */
+}
+#main:after {
+  content: "";
+  display: block;
+  height: 150px; /* the footer's total height */
+}
+#content {
+  min-height: 100%;
+  height: fit-content;
+  margin: 0px 10% 5px 10%;
+}
+#footer {
+  height: 150px; /* the footer's total height */
+  background-color: #445544;
+}
+#footer-content {
+  height: 120px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+  padding: 15px 10%;
+}
+#footer-content p {
+  color: white;
+  width: auto;
+  margin: 8px 0px;
+}
+#footer-contact-information {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+#footer-site-information {
+  float: left;
+  width: 30%;
+  text-align: left;
+}
+
+.row {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.row-menu-card {
+  float: left;
+  height: fit-content;
+  width: 32%;
+  margin: 0px 0.5%;
+  border: #667766 solid 1px;
+}
+.row-menu-card:hover {
+  background-color: #667766;
+  border-color: #667766;
+}
+.row-menu-card:active {
+  background-color: #556655;
+  border-color: #556655;
+}
+.row-menu-card a {
+  color: unset;
+  text-decoration: none;
+}
+.row-menu-card-image {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+.row-menu-card-text {
+  text-align: center;
+  margin: 5px;
+}
+.homepage-intro-text {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#resume-pdf-presenter {
+  margin-top: 5px;
+}
+.experience-row {
+
+}
+.experience-row .date-container{
+  position: relative;
+  float: left;
+
+}
